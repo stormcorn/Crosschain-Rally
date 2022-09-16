@@ -1,0 +1,375 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<title>CrossChain Rally</title>
+<link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="styles/style2.css">
+<link rel="stylesheet" type="text/css" href="styles/animatedFlag.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i,900,900i&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="fonts/css/fontawesome-all.min.css">    
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+    
+<body data-highlight="highlight-red" data-gradient="body-default">
+     
+<div id="preloader"><div class="spinner-border color-highlight" role="status"></div></div>
+    
+<div id="page">
+    
+   <div id="authenticationModal" class="m-0"></div>
+    
+    <header class="raceFlag shadow"></header>
+
+    <section class="p-3 p-lg-5" id="splashScreen">
+
+        <div class="container px-0">
+            <div class="row p-0 m-0 justify-content-center">
+            <div class="col-12 col-lg-7 p-0 m-0">
+                <div class="glass">
+                    <div class="glass_text p-3 p-lg-5">
+                    
+                        <div class="container p-0 m-0">
+                            <div class="row p-0 m-0 justify-content-center">
+                                <div class="col-6 col-lg-5 p-0 m-0">
+                                    <img class="w-100 p-0 m-0" src="images/CrosscahinRallylogo.png" alt="wheelLogo">
+                                </div>
+                            </div>
+                            <div class="row p-0 m-0 justify-content-center">
+                                <div class="col-12 col-lg-10 p-0 m-0 pt-3">
+                                    
+                                <p class="p-0 m-0 text-center text-intro font-weight-light text-white">
+                                    Crosschain Rally is a <b>high-speed online racing game</b> utilizing SFT to represent owned cars! Packed with cutting edge <b>Web3</b> technology</b> and <b>unmatched Game Engine talent.</b>
+                                </p>
+
+                                </div>
+                            </div>
+							   <div class="row p-0 m-0 justify-content-center">
+                                <div class="col-12 col-lg-10 p-0 m-0 pt-4 pb-3">
+								<a href="https://objectstorage.us-ashburn-1.oraclecloud.com/n/idq81xwyo207/b/CrossChainRally/o/Crosschain%20Rally.7z" class="header-title btn btn-m btn-icon rounded-xl font-900 text-uppercase bg-blue-dark shadow-s btn-center-xl zoom" download>Download Game
+								<i class="fa-brands fa-windows font-15 rounded-xl text-center"></i>
+								</a>
+								</div>
+								</div>
+                            <div class="row p-0 m-0 justify-content-center">
+                                <div class="col-12 col-lg-10 p-0 m-0 pt-4 pb-3">
+                                    
+                                <h2 class="p-0 m-0 text-center text-choose font-weight-bold text-white">
+                                    Choose A Network
+                                </h2>
+
+                                </div>
+                            </div>
+                            <div class="row p-0 m-0 justify-content-center">
+                                <div class="col-4 col-lg-3 p-3 m-0 text-center">
+                                    
+                                     <a href="#">
+                                        <img class="w-100 p-0 m-0 zoom" onclick="showLogin()" id="enter-cro" alt="croLogo" src="./images/CRONOS.png">
+                                     </a>
+
+                                </div>
+                                <div class="col-4 col-lg-3 p-3 m-0 text-center">
+                                    
+                                    <a href="#">
+                                        <img class="w-100 p-0 m-0 zoom" alt="bscLogo" src="./images/BSCsoon.png" >
+                                    </a>
+
+                                </div>
+                                <div class="col-4 col-lg-3 p-3 m-0 text-center">
+                                    
+                                    <a href="#">
+                                        <img class="w-100 p-0 m-0 zoom" alt="ftmLogo" src="./images/FANTOMsoon.png">
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+    </section>
+
+     <section class="p-3 p-lg-5 page-content" id="pagina-content" style="display: none;">
+
+        <div class="container px-0">
+            <div class="row p-0 m-0 justify-content-center">
+            <div class="col-12 col-lg-10 p-0 m-0">
+                <div class="glass">
+                    <div class="glass_text p-3 p-lg-5">
+                    
+                
+                <div class="container p-0 m-0">
+                            <div class="row p-0 m-0 justify-content-center">
+                                <div class="col-6 col-lg-3 p-0 m-0 mb-3 mb-lg-4">
+                                    <img class="w-100 p-0 m-0" src="images/CrosscahinRallylogo.png" alt="wheelLogo">
+                                </div>
+                            </div>
+                </div>
+                
+                
+                <div id="tab-group-2">
+                
+                <div class="tab-controls tabs-small tabs-rounded" data-highlight="bg-blue-dark">
+                    <a href="#" data-active data-bs-toggle="collapse" data-bs-target="#tab-5">Home</a>
+                    <a href="#" data-bs-toggle="collapse" data-bs-target="#tab-6">Buy</a>
+                    <a href="#" data-bs-toggle="collapse" data-bs-target="#tab-7">View</a>
+                </div>
+
+<div data-bs-parent="#tab-group-2" class="collapse show" id="tab-5">
+                        <div class="container p-0 m-0">
+                           
+                            <div class="row p-0 m-0 justify-content-center">
+                                <div class="col-12 col-lg-10 p-0 m-0 pt-3 pt-lg-5">
+                                    
+                                <a href="#" style="display:none;line-height: 2;" id="conBut" onclick="showConnect()" class="header-title btn btn-m font-900 text-uppercase bg-red-dark btn-center-xl zoom">CONNECT WALLET!</a>
+
+                                </div>
+                            </div>
+                            <div class="row p-0 m-0 justify-content-center">
+                                <div class="col-12 col-lg-11 p-0 m-0 pt-4 pb-3">
+                                    
+                                <p class="p-0 m-0 text-center text-intro font-weight-light text-white">
+                                    Connect your wallet to play <b>CrossChain Rally!</b> Experience CrossChain gaming at high-speed.
+                                </p>
+
+                                </div>
+                            </div>
+                            <div class="row p-0 m-0 justify-content-center">
+                                <div class="col-12 col-lg-5 p-0 m-0">
+                                    <img class="w-100 p-0 m-0 zoom" src="images/moralisCronos2.png" alt="Moralis x Cronos">
+                                </div>
+                            </div>
+                            <div class="row p-0 m-0 justify-content-center">
+                                <div class="col-12 p-0 m-0 pt-5 pb-3">
+                                    
+                                <h2 class="p-0 m-0 text-center text-choose font-weight-bold text-white">
+                                    Two Entities Join Forces!
+                                </h2>
+                                <p class="p-0 m-0 text-center text-intro font-weight-light text-white">
+                                    To create a high-end and eventually chain-agnostic racing game.
+                                </p>
+
+                                </div>
+                            </div>
+                            <div class="row p-0 m-0 justify-content-center">
+                                <div class="col-6 col-lg-4 p-3 m-0 text-center">
+                                    
+                                    <div class="p-3 m-0 bg-black rounded">
+                                        <a href="https://fractalstudios.io" target="_blank">
+                                            <img src="images/fractalPoster.jpg" class="p-0 m-0 w-100 zoom">
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <div class="col-6 col-lg-4 p-3 m-0 text-center">
+                                    
+                                    <div class="p-3 m-0 bg-black rounded">
+                                        <a href="https://www.at-nft.io/" target="_blank">
+                                            <img src="images/oCompany.jpg" class="p-0 m-0 w-100 zoom">
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+</div>
+
+<div data-bs-parent="#tab-group-2" class="collapse" id="tab-6">
+                        <div class="container p-0 m-0">
+                            
+                             <div class="row p-0 m-0 justify-content-center">
+                                <div class="col-12 col-lg-10 p-0 m-0 pt-4 pb-3">
+                                    
+                                <h2 class="p-0 m-0 text-center text-choose font-weight-bold text-white">
+                                    Buy
+                                </h2>
+                                 <p class="p-0 m-0 text-center text-intro font-weight-light text-white">
+                                   Fill in a little text here
+                                </p>
+
+                                </div>
+                            </div>
+                            <div class="row p-0 m-0 justify-content-center">
+                                <div class="col-12 col-lg-4 p-3 m-0">
+                                    
+                                    <div class="p-3 p-lg-4 m-0 rounded text-center zoom color-buybox">
+
+                                        <img src="images/sBox.png" class="w-100 p-0 m-0">
+                                        <h3 class="p-0 m-0 text-white text-center">Silver Box</h3>
+                                        <p id="sPrice" class="mb-0 text-center"></p>
+                                        <p id="sLeft" class="mb-0 text-center"></p>
+                                        <a href="#" onclick="buySilverBox()" class="btn d-block w-100 bg-red-dark btn-center mt-3">Buy Silver</a>
+
+                                    </div>
+
+                                </div>
+                                 <div class="col-12 col-lg-4 p-3 m-0">
+                                    
+                                    <div class="p-3 p-lg-4 m-0 rounded text-center zoom color-buybox">
+
+                                        <img src="images/gBox.png" class="w-100 p-0 m-0">
+                                        <h3 class="p-0 m-0 text-white text-center">Gold Box</h3>
+                                        <p id="gPrice" class="mb-0 text-center"></p>
+                                        <p id="gLeft" class="mb-0 text-center"></p>
+                                        <a href="#" onclick="buyGoldBox()" class="btn d-block w-100 bg-red-dark btn-center mt-3">Buy Gold</a>
+
+                                    </div>
+
+                                </div>
+                                 <div class="col-12 col-lg-4 p-3 m-0">
+                                    
+                                    <div class="p-3 p-lg-4 m-0 rounded text-center zoom color-buybox">
+
+                                        <img src="images/fBox.png" class="w-100 p-0 m-0">
+                                        <h3 class="p-0 m-0 text-white text-center">Flame Box</h3>
+                                        <p id="fPrice" class="mb-0 text-center"></p>
+                                        <p id="fLeft" class="mb-0 text-center"></p>
+                                        <a href="#" onclick="buyFlameBox()" class="btn d-block w-100 bg-red-dark btn-center mt-3">Buy Flame</a>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row p-0 m-0 justify-content-center">
+                                <div class="col-12 col-lg-5 p-3 m-0">
+                                    <a href="#" class="chip chip-small d-block w-100 bg-green-dark shadow-bg shadow-bg-s text-center zoom">
+                                       <p id="myBalance" class="text-white text-center font-weight-bold p-3">Connect To Load</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                             <div class="row p-0 m-0 justify-content-center">
+                                <div class="col-12 px-0 py-3 m-0">
+                                    <div  class="divider-icon divider-margins bg-blue-dark"><i style="width: 25x;" class="fa color-blue-dark fa-car"></i></div>
+                                </div>
+                            </div>
+
+                            <div class="row p-0 m-0 justify-content-center">
+                                <div class="col-12 p-0 m-0">
+
+
+                                        <h2 class="text-white font-weight-bold">Boxes and Tiers?</h2>
+				<p class="text-white">
+					We will give a detailed explanation here.
+				</p>
+				<div class="accordion mt-4" id="accordion-2">
+                <div class="card card-style shadow-0 bg-highlight mx-0 mt-0 mb-2">
+                    <button class="btn accordion-btn color-white no-effect collapsed" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" style="">
+                        <i class="fa fa-arrow-up-1-9 me-2"></i>
+                        What is a tier?
+                        <i class="fa fa-chevron-down font-10 accordion-icon"></i>
+                    </button>
+
+                    <div id="collapse4" class="bg-white collapse" data-bs-parent="#accordion-2" style="">
+                       
+                            <p class="p-3 m-0 text-black">With certain cars performing differently than others, the tier system helps to sort the cars
+							by overall-ability.</p>
+                        
+                    </div>
+                </div>
+                <div class="card card-style shadow-0 bg-highlight mx-0 mt-0 mb-2">
+                    <button class="btn accordion-btn color-white no-effect collapsed" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" style="">
+                        <i class="fa fa-box me-2"></i>
+                        What is in a box?
+                        <i class="fa fa-chevron-down font-10 accordion-icon"></i>
+                    </button>
+                    <div id="collapse5" class="bg-white collapse" data-bs-parent="#accordion-2" style="">
+                        
+                             <p class="p-3 m-0 text-black">Boxes have 3 levels. Since T1 cars are dedicated to Web2.0 onboarders, T2-T7 are featured in the mystery boxes. Silver boxes yield either a 
+							T2 or T3 car, Gold boxes yield either a T4 or T5 car, and Flame boces yield either a T6 or T7 car. The car that is recieved is random within the tier range.</p>
+                     
+                    </div>
+                </div>
+                <div class="card card-style shadow-0 bg-highlight  mx-0 mt-0 mb-0">
+                    <button class="btn accordion-btn color-white no-effect collapsed" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" style="">
+                        <i class="fa fa-money-bill-1-wave me-2"></i>
+                        How do I buy one?
+                        <i class="fa fa-chevron-down font-10 accordion-icon"></i>
+                    </button>
+                    <div id="collapse6" class="bg-white collapse" data-bs-parent="#accordion-2" style="">
+                       
+                            <p class="p-3 m-0 text-black">Purchase cars by clicking the "Buy" button, and a random vehicle belonging to that level will be minted. Cars 
+							are paid for in native coin such as CRO or BNB.</p>
+                    
+                    </div>
+                </div>
+
+
+                                </div>
+                            </div>
+
+                   
+
+            </div>
+            </div>
+</div>
+
+
+            <div data-bs-parent="#tab-group-2" class="collapse" id="tab-7">
+                        <div class="container p-0 m-0">
+                            
+                            <div class="row p-0 m-0 justify-content-center">
+                                <div class="col-12 col-lg-10 p-0 m-0 pt-4 pb-3">
+                                    
+                                <h2 class="p-0 m-0 text-center text-choose font-weight-bold text-white">
+                                  View Collection
+                                </h2>
+                                 <p class="p-0 m-0 text-center text-intro font-weight-light text-white">
+                                   See the cars and view your ownership!
+                                </p>
+
+                                </div>
+                            </div>
+                            <div class="row p-0 m-0 justify-content-center">
+                                <div class="col-12 col-lg-10 p-0 m-0 pb-3 pb-lg-4 text-center">
+                                    
+                                <a href="#" onclick="refreshCarList()" class="header-title btn btn-m font-900 text-uppercase bg-red-dark btn-center-xl zoom">Load Balances</a>
+
+                                </div>
+                            </div>
+
+                            <div class="row p-0 m-0 justify-content-center">
+                                <div class="col-12 p-0 m-0 text-center">
+                                    
+                                    <div class="p-0 m-0" id="carlist"></div>
+                                
+                                </div>
+                            </div>
+
+                        </div>
+            </div>
+
+</div>
+
+
+                    
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+    </section>
+
+  
+
+    
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="scripts/web3.min.js"></script>
+<script src="scripts/aperta.js"></script>
+<script src="scripts/web3-provider.min.js"></script>
+<script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+<script type="text/javascript" src="scripts/speedyUI.js"></script>
+<script type="text/javascript" src="scripts/web3Functions.js"></script>
+<script type="text/javascript" src="scripts/viewer.js"></script>
+</body>

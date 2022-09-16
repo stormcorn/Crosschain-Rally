@@ -98,7 +98,7 @@ namespace Cronos_Hackathon_Starter_Sample
 
             NativeBalance nativeBalance = await Moralis.Web3Api.Account.GetNativeBalance(
                 walletAddress.ToLower(),
-                Moralis.CurrentChain.EnumValue);
+                Moralis.CurrentChain.EnumValue); 
 
             return nativeBalance;
         }

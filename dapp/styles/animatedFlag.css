@@ -1,0 +1,23 @@
+.raceFlag {
+	background: url('https://i.ebayimg.com/images/g/aMcAAOxy0QtR8bJQ/s-l500.jpg') repeat-x;
+	background-size: 50%;
+	animation: scroll-anim 50s linear infinite;
+}
+
+@media (min-width: 768px) {
+	.raceFlag {
+		background-size: 30%;
+	}
+}
+
+@media (min-width: 1024px) {
+	.raceFlag {
+		background-size: 10%;
+	}
+}
+
+@keyframes scroll-anim {
+	100% {
+		background-position: -100% 0;
+	}
+}
